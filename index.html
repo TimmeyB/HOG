@@ -10,10 +10,10 @@
 
     <div id="nav">
         <nav>
-            <a href="#goals">Goals</a>
-            <a href="#Admission">Admission</a>
-            <a href="#Contact-Us">Contact Us</a>
-            <a href="#Apply">Apply</a>
+            <a href="#goals" onclick="document.getElementById('goal').scrollIntoView({behavior: 'smooth'});">Goals</a>
+            <a href="#Admission" onclick="document.getElementById('admit').scrollIntoView({behavior: 'smooth'});" >Admission</a>
+            <a href="#Contact-Us" onclick="document.getElementById('contactUs').scrollIntoView({behavior: 'smooth'});">Contact Us</a>
+            <a href="#Apply" onclick="document.getElementById('apply').scrollIntoView({behavior: 'smooth'});">Apply</a>
         </nav>
     </div>
     <head>HOPE OF GLORY</head><br>
@@ -43,7 +43,7 @@
         We offer good quality education, teaches pupils how to live socially, and how to be creative. 
     </div>
 
-    <div>
+    <div id="goal">
         <h2>Goals </h2>
         Goals of the school includes:<br>
         Creating better future for children,<br>
@@ -52,7 +52,7 @@
     </div>
 
     <div>
-        <h1>Admission</h1>
+        <h1 id="admit">Admission</h1>
         Admission is still ongoing, when admission is closed we'll let you know. Admission form is NGN 1000. Below you can fill out a form to register your children.
 
     </div>
@@ -63,7 +63,7 @@
   action="https://formspree.io/f/mzbooodo"
   method="POST"
 >
-   <h1>Apply</h1>
+   <h1 id="apply">Apply</h1>
    Fill in this form to register your child.<br/>
   <label>
     Child's Name:
@@ -88,7 +88,7 @@
   <button type="submit">Send</button>
 </form>
     </div>
-    <div>
+    <div id="contactUs">
         <h1>Contact Us</h1>
         Dear parent you can contact us at hognbs@gmail.com or send us a message on WhatsApp at 234 915-564-8778. Thank you in advance!
     </div>
