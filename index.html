@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>HOPE OF GLORY"</title>
+   </head>
+
+     </head>
+     
+     <body>
+  
+      <div id="nav">
+          <nav>
+              <a href="#goals" onclick="document.getElementById('goal').scrollIntoView({behavior: 'smooth'});">Goals</a>
+              <a href="#Admission" onclick="document.getElementById('admit').scrollIntoView({behavior: 'smooth'});" >Admission</a>
+              <a href="#Contact-Us" onclick="document.getElementById('contactUs').scrollIntoView({behavior: 'smooth'});">Contact Us</a>
+              <a href="#Apply" onclick="document.getElementById('apply').scrollIntoView({behavior: 'smooth'});">Apply</a>
+          </nav>
+      </div>
+      <header>HOPE OF GLORY NURSERY AND BASIC SCHOOL</header><br>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="hog1.jpg.jpeg" style="width:100%">
+          <div class="text">HOPE OF GLORY</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="hog2.jpg.jpeg" style="width:100%">
+          <div class="text">HOPE OF GLORY</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="hog3.jpg.jpeg" style="width:100%">
+          <div class="text">HOPE OF GLORY</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+      <h1>WELCOMING ADDRESS</h1><br>
+      We welcome all students to our school may the Lord God bless all the Parents, we pray that your labour over the children would not be in
+      vain. We adjourn all parents to help their children by buying all neccesary textbooks and learning materials for them, and also pay thier
+      school fees at the appropiate time (at least by the end of the third week after resumption) so as to enable that their children are not being
+      sent back home and enjoy their learning. Thanks for your cooperation, we appreciate.  
+  
+      <div>
+        <h2>Why choose Hope of Glory?</h2>
+          Hope of Glory is the right school for your ward. For Parents looking for quality education for their children don't hesitate to register them at Hope of Glory.<br>
+          We teach our pupils not only educational aspects but both moral and social training.
+     If you want good quality and impeccable education for your child/children then you have to choose Hope of Glory for them.<br>
+  
+      </div>
+      <div>
+          <h3>Who is eligible to Apply?</h3>
+          <ul>
+              <li>All pupils irrespective of their social class.</li>
+              <li>Children of about the age of 3-11.</li>
+          </ul>
+      </div>
+  
+      <div>
+          <h4>What we offer.</h4>
+          We offer good quality education, teaches pupils how to live socially, and how to be creative. 
+      </div>
+  
+      <div id="goal">
+          <h2>Goals </h2>
+          Goals of the school includes:<br>
+          Creating better future for children,<br>
+          Preparing children for the future,<br>
+  
+      </div>
+  
+      <div>
+          <h1 id="admit">Admission</h1>
+          Admission is still ongoing, when admission is closed we'll let you know. Admission form is NGN 1000. Below you can fill out a form to register your children.
+  
+      </div>
+  
+      <div>
+  
+  <form
+    action="https://formspree.io/f/mzbooodo"
+    method="POST" 
+  >
+     <h1 id="apply">Apply</h1>
+     Fill in this form to register your child.<br/>
+    <label>
+      Child's Name:<br>
+      <input type="text" name="name" required>
+    </label><br/>
+    <label>
+      Age:<br>
+      <input type="number" id="age" name="age" min="2" max="11" required>
+    </label><br/>
+    <label>
+      Home Address:<br>
+      <input type="text" name="address" required>
+    </label><br/>
+     <label>
+      Parent Phone Number:<br>
+      <input type="tel" name="pNumber" id="pNumber" required>
+    </label><br/>
+     <label>
+      Class:<br>
+      <input type="text" name="class" id="class" required>
+    </label><br/>
+    Gender:<br>
+    <input type="radio"  name="male">Male<br>
+    <input type="radio"  name="female">Female<br>
+     Please attach a Passport of the child below:<br>
+     <input type="file"><br>
+    <button type="submit">Submit</button>
+  </form>
+      </div>
+      <div id="contactUs">
+          <h1>Contact Us</h1>
+          Dear parent you can contact us at hognbs@gmail.com or send us a message on WhatsApp at 234 708-285-2139. Thank you in advance!
+      </div>
+     </body>
+     <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000);
+        }
+        </script>
+        
+        
+  </html>
