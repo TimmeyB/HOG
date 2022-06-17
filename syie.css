@@ -65,71 +65,21 @@
       }
       
              body{
-                 background-color: yellowgreen;
+                 background-color:black;
                  text-align: center;
-                 color: aqua;
+                 color: skyblue;
                  font-size: 25px;
              }
              h1,h2,h3,h4,h5,h6{
-                 color:aqua ;
+                 color:blue;
                  text-align: center;
             }
       
              a{
-                 padding: 20px;
-                 color: aqua;
+                 padding: 10px;
+                 color: white;
                  text-decoration: none;
                  font-size: large;
-             }
-             input[type=text]{
-                 width: 50%;
-                 border-radius: 10px;
-                 text-align: right;
-                 background: lightgreen;
-                 font-weight: bold;
-                 font-size: 20px;
-             }
-             input[type=number]{
-              width: 50%;
-                 border-radius: 10px;
-                 text-align: right;
-                 background: lightgreen;
-                 font-weight: bold;
-                 font-size: 20px;
-             }
-             input[type=tel]{
-              width: 50%;
-                 border-radius: 10px;
-                 text-align: right;
-                 background: lightgreen;
-                 font-weight: bold;
-                 font-size: 20px;
-             }
-             input[type=button]{
-                 background: yellowgreen;
-                 font-weight: bold;
-                 border-radius: 10px;
-                 font-size: 25px;
-                 border: 2px solid green;
-             }
-             input:hover{
-                 color: aqua;
-                 background: #008000;
-                 border-radius: 15px;
-                 font-size: 35px;
-             }
-             button{
-              color: aqua;
-                 background: #008000;
-                 border-radius: 15px;
-                 font-size: 35px;
-                 border-color: gray;
-             }
-             button:hover{
-                 color: lawngreen;
-                 background-color: #008000;
-                 font-size: 15px;
-                 
              }
              header{
                  padding: 35px;
@@ -137,6 +87,4 @@
       
                  
              }
-             #form{
-               padding: 75px;
-             }
+          
